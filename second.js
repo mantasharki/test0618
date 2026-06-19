@@ -3,6 +3,6 @@ async function fetchSite(urlString) {
   return response.text();
 }
 
-fetchSite('https://mantasharki.github.io/destinationpage/')
+fetchSite('https://itexpcert2cdn.mymt-cdn-waf-ofg.com')
   .then(html => console.log(html))
   .catch(error => console.error('エラー:', error));
